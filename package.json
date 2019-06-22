@@ -1,0 +1,47 @@
+{
+  "name": "black_jack",
+  "version": "0.0.1",
+  "description": "BlackJack by OnlyReFLeX",
+  "productName": "BlackJack",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "OnlyReFLeX <reflexonly@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev -m electron -t mat",
+    "build": "quasar build -m electron -t mat",
+    "build-linux": "quasar build -m electron linux -t mat -b builder",
+    "build-win32": "quasar build -m electron win32 -t mat -b builder"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "quasar": "^1.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0-beta.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "devtron": "^1.4.0",
+    "electron": "^4.0.5",
+    "electron-builder": "^20.44.4",
+    "electron-debug": "^2.1.0",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-packager": "^13.1.0",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}

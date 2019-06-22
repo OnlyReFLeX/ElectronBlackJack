@@ -1,0 +1,111 @@
+.margin {
+  margin: auto;
+}
+
+.inside-modal {
+  margin: auto;
+  padding: 0px 17px 17px 17px;
+}
+
+.preloader {
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.card {
+  height: 200px;
+  padding: 5px;
+}
+
+body {
+  transition: all 0.5s;
+}
+
+.action {
+  margin: 8px;
+}
+
+.fixed-top-left, .fixed-top-right {
+  z-index: 10000;
+  color: white;
+  background: rgba(255, 255, 255, 0.17);
+  padding: 8px;
+  margin: 0px;
+  font-weight: bold;
+
+  .user-bank {
+    margin: 0px;
+  }
+}
+
+.fixed-top {
+  span {
+    background: rgba(255, 255, 255, 0.17);
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  //background-color: red;
+  color: white;
+  text-align: center;
+}
+
+p.score {
+  padding: 8px;
+  color: white;
+  span {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.17);
+  }
+}
+
+.q-pa-md {
+  padding-top: 70px !important;
+}
+
+
+.q-dialog {
+  .q-card {
+    padding: 21px;
+  }
+}
+
+
+.q-notifications__list {
+  margin-bottom: 0px !important;
+
+  .q-notification {
+    box-shadow: none !important;
+    border-radius: 0px !important;
+  }
+}
+
+.name {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.q-dialog__inner > div {
+  border-radius: 0px !important;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
